@@ -1,5 +1,9 @@
 # Documentation guidelines
 
+!!! note "Preview test"
+
+    This note exists only on the test pull request of the fork. It shows that the Cloudflare Pages preview works.
+
 ## Workflow
 
 Contributions to Autoware's documentation are welcome, and the same principles [described in the contribution guidelines](../index.md#pull-requests) should be followed. Small, limited changes can be made by forking this repository and submitting a pull request, but larger changes should be discussed with the community and Autoware maintainers via GitHub Discussion first.
