@@ -26,6 +26,6 @@ jobs:
           persist-credentials: false
 
       - name: Build docs preview
-        uses: autowarefoundation/autoware-github-actions/build-docs-preview@v1
+        uses: xmfcx/autoware-github-actions/build-docs-preview@feat/docs-preview-cloudflare
         with:
           mkdocs-requirements-txt: mkdocs-requirements.txt

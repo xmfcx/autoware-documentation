@@ -25,7 +25,7 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Publish docs preview
-        uses: autowarefoundation/autoware-github-actions/publish-docs-preview@v1
+        uses: xmfcx/autoware-github-actions/publish-docs-preview@feat/docs-preview-cloudflare
         with:
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
